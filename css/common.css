@@ -1,0 +1,50 @@
+
+.wrapper{
+    width: 1360px;
+    margin: 0 auto;
+}
+
+/* <!-- 1.header --> */
+.header{
+    height: 60px;
+    background-color: #252B31 ;
+}
+
+.header .wrapper{
+    height: 60px;
+}
+
+.logo{
+    float: left;
+
+}
+.logo a{
+    display: block;
+    margin: 10px 0;
+    width: 121px;
+    height: 39px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+.login{
+    float: right;
+}
+.login a{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.login a:hover{
+    background-color: #FF7900;
+    border: none;
+}
